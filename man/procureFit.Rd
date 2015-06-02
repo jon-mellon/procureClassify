@@ -2,10 +2,10 @@
 \alias{procureFit}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Fits a classifier to a term document matrix
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Wrapper for RTextTools classifier. Also performs sampling of test group if needed. 
 }
 \usage{
 procureFit(procure, random = TRUE, text.var = "text", classifier = c("svm", "maxent", "glmnet"))

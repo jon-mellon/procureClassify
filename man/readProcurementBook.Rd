@@ -2,10 +2,10 @@
 \alias{readProcurementBook}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Reads manually coded procurement data for Karnataka and Odisha
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Reads manually coded procurement data for Karnataka and Odisha
 }
 \usage{
 readProcurementBook(file = "TenderReport_ODI_2009_2010.xlsx")

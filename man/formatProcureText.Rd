@@ -2,10 +2,10 @@
 \alias{formatProcureText}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-%%  ~~function to do ... ~~
+Formats procurement text into a term document matrix
 }
 \description{
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+Formats procurement text into a term document matrix
 }
 \usage{
 formatProcureText(procure, text.var)
