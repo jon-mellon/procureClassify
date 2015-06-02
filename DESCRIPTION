@@ -1,0 +1,9 @@
+Package: procureClassify
+Type: Package
+Title: Text classification for procurement analytics
+Version: 1.0
+Date: 2015-06-02
+Author: Jonathan Mellon and Fredrik Sjoberg
+Maintainer: Who to complain to <jonathan.mellon@nuffield.ox.ac.uk>
+Description: Machine learning for procurement data
+License: What license is it under?
