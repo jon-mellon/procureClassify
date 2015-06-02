@@ -1,4 +1,5 @@
 readProcurementBook <- function(file = "TenderReport_ODI_2009_2010.xlsx") {
+  require(readxl)
   all.sheets <- excel_sheets(file)
   
   readSheets <- function(sheet) {
@@ -9,6 +10,7 @@ readProcurementBook <- function(file = "TenderReport_ODI_2009_2010.xlsx") {
     data <- data[, grepl("description|title|value|bids", colnames(data), 
                          ignore.case = TRUE)]
     data$label <- header
+    data$code <- sheet
     return(data)
   }
   
