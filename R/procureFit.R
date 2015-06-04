@@ -1,7 +1,9 @@
 procureFit <- function(procure, random = TRUE, 
                        text.var = "text",
                        classifier = c("svm", "maxent", 
-                                      "glmnet")) {
+                                      "glmnet"), 
+                       seed = 4389587) {
+  set.seed(seed)
   dtm <- formatProcureText(procure, text.var)
   if(random) {
     procure$fit <- 1

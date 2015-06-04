@@ -9,5 +9,6 @@ formatProcureText <- function(procure, text.var) {
   text <- tm_map(text, removeNumbers) 
   dtm <- DocumentTermMatrix(text, control=list(weighting=weightTf, 
                                                tokenize = TrigramTokenizer))
+  dtm <- removeSparseTerms(dtm, 0.999)
   return(dtm)
 }
